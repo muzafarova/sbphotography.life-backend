@@ -25,6 +25,9 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::gallery.gallery"
+    },
+    "content": {
+      "type": "richtext"
     }
   }
 }
