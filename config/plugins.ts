@@ -13,9 +13,15 @@ export default ({ env }) => ({
           responsive_breakpoints: {
             create_derived: true,
           },
+          // Store original image dimensions
+          image_metadata: true,
+          return_delete_token: true,
         },
         uploadStream: {
           folder: env('CLOUDINARY_FOLDER', 'strapi-uploads'),
+          // Store original image dimensions
+          image_metadata: true,
+          return_delete_token: true,
         },
         delete: {},
       },
