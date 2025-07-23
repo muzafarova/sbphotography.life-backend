@@ -14,12 +14,23 @@
     "title": {
       "type": "string"
     },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
     "blocks": {
       "type": "dynamiczone",
       "components": [
-        "shared.rich-text",
-        "shared.media"
+        "shared.rich-text"
       ]
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
     }
   }
 }

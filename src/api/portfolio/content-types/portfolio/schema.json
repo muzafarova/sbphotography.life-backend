@@ -28,6 +28,11 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
     }
   }
 }
